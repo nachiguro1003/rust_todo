@@ -1,0 +1,20 @@
+[package]
+name = "rust-todo"
+version = "0.1.0"
+authors = ["yoseiito <y.ito1003@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.0"
+sailfish = "0.1.1"
+sailfish-macros = "0.1.1"
+listenfd = "0.3"
+askama = "0.10.3"
+thiserror = "1.0.20"
+rusqlite = {version = "0.24.0",features=["bundled"]}
+r2d2 = "0.8.9"
+r2d2_sqlite = "0.17.0"
+serde = {version="1.0",features=["derive"]}
